@@ -35,6 +35,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 KDE Channel Approver for Telepathy.
 
+%description -l pl.UTF-8
+"Zatwierdzacz" kanałów dla KDE Telepathy.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
